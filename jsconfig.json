@@ -1,0 +1,10 @@
+{
+    "include": [
+        "./node_modules/cypress",
+        "cypress/**/*.js"
+    ]
+}
+
+// heard that this excludes the need to the first line of code in all tests in order to obtain the intelisense, the line below
+// 👇
+///<reference types="Cypress" />
